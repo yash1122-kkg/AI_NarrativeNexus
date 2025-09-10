@@ -227,7 +227,7 @@ st.title("📊 NarrativeNexus Data Collector")
 st.write("Comprehensive data collection from files, Reddit posts, and news articles.")
 
 
-tab1, tab2, tab3, tab4 = st.tabs(["📄 File Upload", "🔗 Reddit Posts", "📰 News Articles", "📊 Data Manager"])
+tab1, tab2, tab3 = st.tabs(["📄 File Upload", "🔗 Reddit Posts", "📰 News Articles"])
 
 
 with tab1:
@@ -384,4 +384,5 @@ with tab3:
                     st.error(f"❌ Error: {e}")
             else:
                 st.warning("⚠️ Please enter search keywords.")
+
 
